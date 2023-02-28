@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const app = express()
+const fetch = require('node-fetch')
 
 const PORT = process.env.PORT || 3333
 app.use(cors())
