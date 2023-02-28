@@ -15,7 +15,7 @@ const getQuestion = () => {
             res.json().then((data) => {
                 
                 question = data
-                console.log(question)
+                
                 getQuestion()
             })
             
